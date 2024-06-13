@@ -26,11 +26,10 @@
   box-shadow: 100vw 0 $primary-color;
 
   @media (min-width: $tablet-width) {
-    top: 6px;
-    margin-top: 6px;
+    margin-top: 3px;
   }
 
-  @media (min-width: $tablet-width) {
-    top: 12px;
+  @media (min-width: $desktop-width) {
+    margin-top: 9px;
   }
 }
