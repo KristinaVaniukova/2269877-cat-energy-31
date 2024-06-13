@@ -13,9 +13,9 @@
     "footer footer";
 
   @media (min-width: $tablet-width) {
-    background: linear-gradient($white 0% 16%, $bg-secondary 16% 84%);
+    background-color: $bg-secondary;
     border: none;
-    padding: 82px 37px 40px;
+    padding: 83px 37px 40px;
     grid-template-areas:
       "img"
       "title"
@@ -24,7 +24,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    background: none;
     padding: 86px 38px 40px;
     row-gap: 0;
   }
@@ -48,8 +47,8 @@
     margin: -151px auto 0;
   }
 
-  @media (min-width: $tablet-width) {
-    margin: -150px auto 0;
+  @media (min-width: $desktop-width) {
+    margin: -157px auto 0;
     width: 169px;
   }
 }
@@ -115,7 +114,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin: 2px 19px 0;
+    margin: 9px 19px 0;
   }
 }
 
@@ -173,7 +172,7 @@
 
   @media (min-width: $desktop-width) {
     margin-top: 14px;
-    margin-bottom: 34px;
+    margin-bottom: 32px;
   }
 }
 
